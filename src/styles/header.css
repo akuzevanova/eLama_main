@@ -7,6 +7,10 @@
   font-size: 17px;
   background-color: rgba(206, 151, 194, 0.582);
 }
+
+.header-menu-links {
+  text-decoration: none;
+}
 .header-logo {
   padding: 0 0 0 20px;
   display: inline-flex;
@@ -37,8 +41,13 @@
   display: flex;
 }
 
+.header-signup-button {
+  text-decoration: none;
+}
+
 .header-signin-button {
   padding-right: 20px;
+  text-decoration: none;
 }
 
 .header-menu-buttons {
