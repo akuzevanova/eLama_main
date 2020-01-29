@@ -1,0 +1,50 @@
+.header {
+  width: 1200px;
+  height: 69px;
+  display: flex;
+  padding: 24px 0;
+  justify-content: space-between;
+  font-size: 17px;
+  background-color: rgba(206, 151, 194, 0.582);
+}
+.header-logo {
+  padding: 0 0 0 20px;
+  display: inline-flex;
+}
+.header-navmenu ul li {
+  text-decoration: none;
+  list-style-type: none;
+}
+.header-navmenu ul {
+  padding: 0;
+}
+
+.header-navmenu {
+  margin: auto;
+}
+
+.header-navmenu-list {
+  display: flex;
+  margin: auto;
+}
+
+.header-navmenu-points {
+  padding-left: 20px;
+}
+
+.header-buttons-sign {
+  margin: auto;
+  display: flex;
+}
+
+.header-signin-button {
+  padding-right: 20px;
+}
+
+.header-menu-buttons {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  font-size: 17px;
+}
