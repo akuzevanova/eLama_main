@@ -1,0 +1,78 @@
+/*ДОБАВИТЬ СТРЕЛКИ И ПОДПУНКТЫ В МЕНЮ*/
+
+.header {
+  width: 1200px;
+  height: 69px;
+  display: flex;
+  padding: 24px 0;
+  justify-content: space-between;
+}
+
+.header-menu-links {
+  text-decoration: none;
+}
+
+.header-logo {
+  padding: 0 0 0 20px;
+  display: inline-flex;
+}
+.header-navmenu ul li {
+  text-decoration: none;
+  list-style-type: none;
+}
+.header-navmenu ul {
+  padding: 0;
+}
+
+.header-navmenu {
+  margin: auto;
+}
+
+.header-navmenu-list {
+  display: flex;
+  margin: auto;
+}
+
+.header-navmenu-points {
+  padding-left: 20px;
+}
+
+.header-buttons-sign {
+  margin: auto;
+}
+
+.header-signup-button {
+  text-decoration: none;
+  border-radius: 25px;
+  background-color: #039be6;
+  color: white;
+  padding: 10px 25px;
+}
+
+.header-signup-button:hover {
+  opacity: 60%;
+}
+
+.header-signin-button {
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+.header-menu-buttons {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: Museo-Sans-Cyrl;
+}
+
+.header-signin-button:hover {
+  color: #039be6;
+}
+.header-menu-buttons:hover {
+  color: #039be6;
+}
+.header-menu-links:hover {
+  color: #039be6;
+}
