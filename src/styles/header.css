@@ -38,7 +38,8 @@
 }
 
 .header-buttons-sign {
-  margin: auto;
+  margin: inherit;
+  align-self: center;
 }
 
 .header-signup-button {
