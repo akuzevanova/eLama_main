@@ -6,6 +6,7 @@
   display: flex;
   padding: 24px 0;
   justify-content: space-between;
+  margin: auto;
 }
 
 .header-menu-links {
@@ -44,10 +45,11 @@
 
 .header-signup-button {
   text-decoration: none;
-  border-radius: 25px;
+  border-radius: 30px;
   background-color: #039be6;
   color: white;
-  padding: 10px 25px;
+  padding: 12px 33px;
+  font-size: 14px;
 }
 
 .header-signup-button:hover {

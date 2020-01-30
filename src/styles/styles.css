@@ -17,6 +17,6 @@
     url("/fonts/Museosanscyrl500.woff2") format("woff2"),
     url("/fonts/Museosanscyrl500.woff") format("woff"),
     url("/fonts/Museosanscyrl500.ttf") format("truetype");
-  font-weight: 500;
+  font-weight: 200;
   font-style: normal;
 }

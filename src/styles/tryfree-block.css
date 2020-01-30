@@ -1,4 +1,40 @@
 .tryfree-block {
-  background-color: rgba(206, 151, 194, 0.582);
-  /*background-color: #222a35;*/
+  background-color: #222a35;
+  color: white;
+  display: flex;
+  padding: 75px 0 20px;
+  margin: auto;
+  height: 400px;
+}
+
+.tryfree-text {
+  display: block;
+}
+
+.tryfree-title {
+  margin: 0 0 40px 0;
+  font-size: 35px;
+}
+
+.tryfree-paragraph {
+  color: #c4c4c4;
+  line-height: 1.75;
+  margin-block-end: 3em;
+}
+
+.tryfree-button {
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  background-color: #03973d;
+  height: 6rem;
+  padding: 20px 32px;
+  font-size: 14px;
+}
+
+.tryfree-button:hover {
+  opacity: 60%;
+}
+
+.tryfree-img {
 }
