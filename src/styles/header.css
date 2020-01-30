@@ -1,16 +1,17 @@
+/*ДОБАВИТЬ СТРЕЛКИ И ПОДПУНКТЫ В МЕНЮ*/
+
 .header {
   width: 1200px;
   height: 69px;
   display: flex;
   padding: 24px 0;
   justify-content: space-between;
-  font-size: 17px;
-  background-color: rgba(206, 151, 194, 0.582);
 }
 
 .header-menu-links {
   text-decoration: none;
 }
+
 .header-logo {
   padding: 0 0 0 20px;
   display: inline-flex;
@@ -38,11 +39,18 @@
 
 .header-buttons-sign {
   margin: auto;
-  display: flex;
 }
 
 .header-signup-button {
   text-decoration: none;
+  border-radius: 25px;
+  background-color: #039be6;
+  color: white;
+  padding: 10px 25px;
+}
+
+.header-signup-button:hover {
+  opacity: 60%;
 }
 
 .header-signin-button {
@@ -55,5 +63,16 @@
   outline: none;
   background: none;
   cursor: pointer;
-  font-size: 17px;
+  font-size: 16px;
+  font-family: Museo-Sans-Cyrl;
+}
+
+.header-signin-button:hover {
+  color: #039be6;
+}
+.header-menu-buttons:hover {
+  color: #039be6;
+}
+.header-menu-links:hover {
+  color: #039be6;
 }
