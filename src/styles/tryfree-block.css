@@ -1,3 +1,5 @@
+/*доделать кнопку и отображение изображения*/
+
 .tryfree-block {
   background-color: #222a35;
   color: white;
@@ -37,4 +39,5 @@
 }
 
 .tryfree-img {
+  position: absolute;
 }
