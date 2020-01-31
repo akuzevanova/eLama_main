@@ -36,9 +36,9 @@
 }
 
 .tryfree-button:hover {
-  opacity: 60%;
+  background-color: #2baf60;
 }
 
 .tryfree-img {
-  position: absolute;
+  margin: 55px -75px 0 0;
 }
