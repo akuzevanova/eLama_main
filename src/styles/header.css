@@ -2,7 +2,7 @@
 
 .header {
   width: 1200px;
-  height: 69px;
+  height: 6-px;
   display: flex;
   padding: 24px 0;
   justify-content: space-between;
@@ -16,13 +16,11 @@
 .header-logo {
   padding: 0 0 0 20px;
   display: inline-flex;
+  margin-bottom: 10px;
 }
 .header-navmenu ul li {
   text-decoration: none;
   list-style-type: none;
-}
-.header-navmenu ul {
-  padding: 0;
 }
 
 .header-navmenu {
@@ -31,7 +29,6 @@
 
 .header-navmenu-list {
   display: flex;
-  margin: auto;
 }
 
 .header-navmenu-points {
@@ -50,6 +47,7 @@
   color: white;
   padding: 12px 33px;
   font-size: 14px;
+  margin-bottom: 10px;
 }
 
 .header-signup-button:hover {
@@ -59,6 +57,7 @@
 .header-signin-button {
   padding-right: 20px;
   text-decoration: none;
+  margin-bottom: 10px;
 }
 
 .header-menu-buttons {
@@ -68,6 +67,7 @@
   cursor: pointer;
   font-size: 16px;
   font-family: Museo-Sans-Cyrl;
+  margin-bottom: 10px;
 }
 
 .header-signin-button:hover {
@@ -77,5 +77,42 @@
   color: #039be6;
 }
 .header-menu-links:hover {
+  color: #039be6;
+}
+
+.header-navmenu-points ul {
+  display: none;
+  position: absolute;
+}
+
+.header-navmenu-points:hover ul {
+  display: block;
+}
+
+.header-menu-podmenu {
+  background-color: white;
+  padding: 10px 35px 10px 20px;
+  position: relative;
+  z-index: 1;
+  border-radius: 10px;
+  line-height: 40px;
+  margin-left: -10px;
+
+  box-shadow: rgba(29, 29, 57, 0.2) 0px 8px 24px;
+}
+.header-podmenu-points a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.header-menu-podmenu a:hover {
+  color: #039be6;
+}
+
+.header-navmenu-points a {
+  text-decoration: none;
+  list-style-type: none;
+}
+.header-navmenu-points a:hover {
   color: #039be6;
 }
