@@ -3,7 +3,6 @@ body {
   margin: auto;
   color: #1d1d39;
   font-family: Museo-Sans-Cyrl, Arial, Helvetica, sans-serif;
-  width: 1200px;
 }
 .all-title {
   font-weight: 200;
@@ -11,5 +10,10 @@ body {
 }
 
 .main-container {
+  margin: auto;
+}
+
+.container {
+  width: 1200px;
   margin: auto;
 }

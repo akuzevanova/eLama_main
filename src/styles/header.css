@@ -1,14 +1,18 @@
-/*ДОБАВИТЬ СТРЕЛКИ И ПОДПУНКТЫ В МЕНЮ*/
-
 .header {
-  width: 1200px;
-  height: 6-px;
-  display: flex;
+  position: sticky;
   padding: 24px 0;
   justify-content: space-between;
-  margin: auto;
+  background: #fff;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  top: 0;
+  box-shadow: rgba(29, 29, 57, 0.2) 0px 8px 24px;
 }
 
+.header-container {
+  display: flex;
+}
 .header-menu-links {
   text-decoration: none;
 }
@@ -85,6 +89,10 @@
   position: absolute;
 }
 
+.header-navmenu-points:hover .header-arrow {
+  transform: rotate(180deg);
+}
+
 .header-navmenu-points:hover ul {
   display: block;
 }
@@ -97,7 +105,6 @@
   border-radius: 10px;
   line-height: 40px;
   margin-left: -10px;
-
   box-shadow: rgba(29, 29, 57, 0.2) 0px 8px 24px;
 }
 .header-podmenu-points a {
@@ -115,4 +122,8 @@
 }
 .header-navmenu-points a:hover {
   color: #039be6;
+}
+.header-arrow {
+  vertical-align: middle;
+  transition: transform 0.25s linear;
 }
