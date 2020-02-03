@@ -27,8 +27,14 @@
   margin-left: 55px;
 }
 
-.supportcontact-number ul li {
+.supportcontact-number a {
+  text-decoration: none;
   list-style-type: none;
+  color: #fff;
+}
+
+.supportcontact-number a:hover {
+  color: #38c4ff;
 }
 
 .supportcontact-number-table {
