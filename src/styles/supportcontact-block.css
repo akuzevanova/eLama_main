@@ -1,0 +1,86 @@
+.supportcontact-block {
+  color: #fff;
+  background-image: linear-gradient(106.77deg, #1286ca, #1299ca);
+}
+
+.support-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0 72px 0;
+}
+
+.supportcontact-text {
+  width: 400px;
+}
+
+.supportcontact-title {
+  margin: 50px 0;
+  font-size: 35px;
+}
+
+.supportcontact-text-paragraph {
+  line-height: 1.8575;
+  font-size: 15px;
+}
+.supportcontact-number {
+  margin-left: 55px;
+}
+
+.supportcontact-number ul li {
+  list-style-type: none;
+}
+
+.supportcontact-number-table {
+  padding: 0 0 20px 0;
+}
+
+.supportcontact-number-table-point {
+  display: flex;
+}
+
+.supportcontact-number-table-number {
+  font-size: 20px;
+  margin-bottom: 20px;
+  min-width: 175px;
+}
+
+.supportcontact-number-table-city {
+  margin: 29px 0 0 93px;
+  padding: 0 0 0 30px;
+  margin: 0;
+  opacity: 0.6;
+  font-size: 14px;
+}
+
+.supportcontact-button a {
+  text-decoration: none;
+  border-radius: 30px;
+  border: 2px solid #e7eaf1;
+  background-color: #fff;
+  color: #039be6;
+  font-size: 14px;
+  padding: 10px 30px;
+}
+.supportcontact-button :hover {
+  border-color: #38c4ff;
+}
+
+.supportcontact-img {
+}
+
+.supportcontact-photo {
+  margin-top: -30px;
+}
+
+.supportcontact-info {
+  margin: -140px 0 0 -90px;
+}
+
+.supportcontact-name {
+}
+
+.supportcontact-position {
+  font-size: 13px;
+  line-height: 0;
+}
