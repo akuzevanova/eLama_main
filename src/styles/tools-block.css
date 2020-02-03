@@ -1,3 +1,68 @@
 .tools-block {
   background-color: #f2f3f8;
+  display: flex;
+  padding: 150px 0 100px 0;
+}
+
+.tryfreeblock-container {
+}
+
+.tools-title-block {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.tools-title {
+  font-size: 17px;
+}
+
+.tools-button {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.tools-button a {
+  text-decoration: none;
+  border-radius: 30px;
+  border: 2px solid #e7eaf1;
+  background-color: #fff;
+  color: #039be6;
+  font-size: 14px;
+  padding: 10px 30px;
+}
+.tools-button :hover {
+  border-color: #38c4ff;
+}
+
+.tools-table {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.tools-box {
+  flex: 0 0 30%;
+  padding-right: 2rem;
+  margin-bottom: 50px;
+}
+
+.tools-logo {
+  margin-bottom: 20px;
+}
+
+.tools-description {
+  margin-bottom: 20px;
+  color: #333;
+  line-height: 1.8575;
+  font-size: 15px;
+}
+
+.tools-link a {
+  color: #039be6;
+  text-decoration: none;
+}
+
+.tools-link a:hover {
+  color: #38c4ff;
 }
