@@ -1,0 +1,24 @@
+.doptools-block {
+  padding: 150px 0;
+  display: flex;
+}
+
+.doptools-text {
+  width: 500px;
+}
+
+.doptools-title {
+  margin: 50px 0;
+  font-size: 35px;
+}
+
+.doptools-paragraph {
+  width: 590px;
+  line-height: 1.8575;
+  color: #333;
+  font-size: 15px;
+}
+
+.doptools-img {
+  margin-left: 220px;
+}
