@@ -1,0 +1,49 @@
+.bottommap-block {
+}
+
+.bottommap-container {
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1px solid #e7eaf1;
+  padding: 45px 0 36px;
+}
+
+.bottommap-col {
+  padding: 0 20px;
+  max-width: 20%;
+}
+
+.bottommap-title {
+  margin: 0 0 30px;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.bottommap-list li {
+  list-style-type: none;
+  margin: 0 0 11px;
+  display: inline-block;
+  color: #1d1d39;
+  font-size: 14px;
+  font-weight: 100;
+  width: 215px;
+  line-height: 30px;
+  opacity: 70%;
+}
+
+.bottommap-list {
+  padding: 0;
+}
+
+.bottommap-list-point a {
+  text-decoration: none;
+}
+
+.bottommap-list-link:hover {
+  color: #039be6;
+  transition: color 125ms;
+}
+
+.bottommap-col16 {
+  max-width: 15%;
+}
