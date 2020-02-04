@@ -25,19 +25,7 @@
   margin-block-end: 3em;
 }
 
-.tryfree-button {
-  color: white;
-  text-decoration: none;
-  border-radius: 30px;
-  background-color: #03973d;
-  height: 6rem;
-  padding: 20px 32px;
-  font-size: 14px;
-}
 
-.tryfree-button:hover {
-  background-color: #2baf60;
-}
 
 .tryfree-img {
   margin: 55px -75px 0 0;
