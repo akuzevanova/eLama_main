@@ -8,9 +8,6 @@
   justify-content: space-around;
 }
 
-.partners-text {
-}
-
 .partners-title {
   font-size: 35px;
   width: 420px;
@@ -24,9 +21,6 @@
   box-shadow: 0 0.8rem 2.4rem rgba(29, 29, 57, 0.2);
   background-color: #fff;
   margin: 1px 0 -127px -187px;
-}
-
-.partners-certif-block {
 }
 
 .partners-img-top {

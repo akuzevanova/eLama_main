@@ -42,9 +42,6 @@
   display: flex;
 }
 
-.footer-bottom-contacts {
-}
-
 .footer-bottom-contacts-list {
   display: flex;
   text-decoration: none;
@@ -81,9 +78,6 @@
   justify-content: center;
 }
 
-.footer-bottom-copyright-logo {
-}
-
 .footer-bottom-copyright-button {
   border: none;
   outline: none;
@@ -92,9 +86,6 @@
   font-size: 16px;
   font-family: Museo-Sans-Cyrl;
   align-self: end;
-}
-
-.footer-bottom-copyright-bottom {
 }
 
 .footer-bottom-copyright-year {

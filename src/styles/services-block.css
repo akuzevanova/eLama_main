@@ -7,9 +7,6 @@
   font-size: 18px;
 }
 
-.services-list {
-}
-
 .services-list-box {
   display: flex;
   align-items: center;
@@ -37,9 +34,6 @@
 
 .services-list-box:not(:last-child) {
   margin-bottom: 40px;
-}
-
-.services-list-logo {
 }
 
 .services-list-title {
