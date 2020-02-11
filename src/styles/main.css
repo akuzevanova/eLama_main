@@ -1,6 +1,32 @@
 body {
+  width: 100%;
   margin: auto;
-  width: 1200px;
   color: #1d1d39;
   font-family: Museo-Sans-Cyrl, Arial, Helvetica, sans-serif;
+}
+.all-title {
+  font-weight: 200;
+  line-height: 1.35em;
+}
+
+.main-container {
+  margin: auto;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+.tryfree-button {
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  background-color: #03973d;
+  height: 6rem;
+  padding: 20px 32px;
+  font-size: 14px;
+}
+
+.tryfree-button:hover {
+  background-color: #2baf60;
 }

@@ -1,0 +1,46 @@
+.email-block {
+  background-color: #f2f3f8;
+  padding: 120px 0;
+  text-align: center;
+}
+
+.email-title {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.email-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*а надо ли*/
+
+.email-field {
+}
+
+.email-field-text {
+}
+
+.email-field-input {
+  width: 300px;
+  height: 45px;
+  margin-right: 25px;
+  border: 0.1rem solid #e7eaf1;
+  border-radius: 5px;
+}
+
+.email-field-input-text {
+  position: absolute;
+  padding: 5px 29px 3px 19px;
+  color: #333;
+  font-size: 14px;
+  line-height: 5px;
+  pointer-events: none;
+  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition-duration: 0.25s;
+  transition-property: transform, font-size;
+  top: 5318px;
+  opacity: 60%;
+}

@@ -1,27 +1,29 @@
-/*ДОБАВИТЬ СТРЕЛКИ И ПОДПУНКТЫ В МЕНЮ*/
-
 .header {
-  width: 1200px;
-  height: 69px;
-  display: flex;
-  padding: 24px 0;
+  position: sticky;
+  padding: 20px 0 10px 0;
   justify-content: space-between;
+  background: #fff;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  top: 0;
+  box-shadow: rgba(29, 29, 57, 0.2) 0px 8px 24px;
 }
 
+.header-container {
+  display: flex;
+}
 .header-menu-links {
   text-decoration: none;
 }
 
 .header-logo {
-  padding: 0 0 0 20px;
   display: inline-flex;
+  margin-bottom: 10px;
 }
 .header-navmenu ul li {
   text-decoration: none;
   list-style-type: none;
-}
-.header-navmenu ul {
-  padding: 0;
 }
 
 .header-navmenu {
@@ -30,7 +32,6 @@
 
 .header-navmenu-list {
   display: flex;
-  margin: auto;
 }
 
 .header-navmenu-points {
@@ -38,15 +39,18 @@
 }
 
 .header-buttons-sign {
-  margin: auto;
+  margin: inherit;
+  align-self: center;
 }
 
 .header-signup-button {
   text-decoration: none;
-  border-radius: 25px;
+  border-radius: 30px;
   background-color: #039be6;
   color: white;
-  padding: 10px 25px;
+  padding: 12px 33px;
+  font-size: 14px;
+  margin-bottom: 10px;
 }
 
 .header-signup-button:hover {
@@ -56,6 +60,7 @@
 .header-signin-button {
   padding-right: 20px;
   text-decoration: none;
+  margin-bottom: 10px;
 }
 
 .header-menu-buttons {
@@ -65,6 +70,7 @@
   cursor: pointer;
   font-size: 16px;
   font-family: Museo-Sans-Cyrl;
+  margin-bottom: 10px;
 }
 
 .header-signin-button:hover {
@@ -75,4 +81,48 @@
 }
 .header-menu-links:hover {
   color: #039be6;
+}
+
+.header-navmenu-points ul {
+  display: none;
+  position: absolute;
+}
+
+.header-navmenu-points:hover .header-arrow {
+  transform: rotate(180deg);
+}
+
+.header-navmenu-points:hover ul {
+  display: block;
+}
+
+.header-menu-podmenu {
+  background-color: white;
+  padding: 10px 35px 10px 20px;
+  position: relative;
+  z-index: 1;
+  border-radius: 10px;
+  line-height: 40px;
+  margin-left: -10px;
+  box-shadow: rgba(29, 29, 57, 0.2) 0px 8px 24px;
+}
+.header-podmenu-points a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.header-menu-podmenu a:hover {
+  color: #039be6;
+}
+
+.header-navmenu-points a {
+  text-decoration: none;
+  list-style-type: none;
+}
+.header-navmenu-points a:hover {
+  color: #039be6;
+}
+.header-arrow {
+  vertical-align: middle;
+  transition: transform 0.25s linear;
 }

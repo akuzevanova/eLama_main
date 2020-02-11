@@ -1,0 +1,25 @@
+.clients-block {
+  padding: 150px 0 150px 0;
+  margin: auto;
+}
+
+.clients-text {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.clients-list {
+  display: flex;
+  justify-content: center;
+}
+
+.clients-table {
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.clients-list-point {
+  margin-right: 20px;
+}
